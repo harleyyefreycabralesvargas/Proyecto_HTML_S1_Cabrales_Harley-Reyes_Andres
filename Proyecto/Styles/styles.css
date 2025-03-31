@@ -1,0 +1,115 @@
+body{
+   margin: 0;
+   width: 100vw;
+   height: 56.25vw;
+}
+.fondo_negro{
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    background-color: black;
+}
+.fondo_imagen{
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+}
+.logo_1{
+    margin: 0;
+    position: absolute;
+    width: 10.208333vw;
+    height: 9.16666vw;
+    top:23vw;
+    left: 44.89583vw;
+    opacity: 0%;
+  
+    animation: animacion1 3s linear;
+}
+@keyframes animacion1{
+    0%{opacity: 100%;}
+    25%{opacity: 100%;}
+    40%{opacity: 0%;}
+    80%{opacity: 0%;}
+    100%{opacity: 100%;}
+}
+.cuadro_blanco{
+    position: absolute;
+    background-color: white;
+    width: 48.75vw;
+    height: 39.63541vw;
+    border-radius: 3.48958vw;
+    top: 8.33333vw;
+    left: 25.625vw;
+    opacity: 0%;
+    animation: animacion2  linear forwards;
+    animation-delay: 3.1s;
+}
+.logo_2{
+    position: absolute;
+    width: 5.36458vw;
+    height: 6.04166;
+    top: 1.95312vw;
+    left: 22.39583vw;
+}
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/MYRIADPRO-REGULAR.woff);
+}
+@font-face {
+    font-family: "light";
+    src: url(../fonts/MyriadPro-Light.woff);
+}
+.panel-kario{
+    position: absolute;
+    font-family: "regular";
+    text-align: center;
+    font-size: 40px;
+    left: 230px;
+    width: 500px;
+    height: 96px;
+}
+.ingresar{
+    font-family: "light";
+    font-size: 20px;
+    left: 699px;
+width: auto;
+height: 20px;
+    text-align: center;
+}
+form{
+    position: absolute;
+    font-family: "light";
+    font-size: 25px;
+    top: 20px;
+    left: 150px;
+width: 76px;
+height: 25px;
+}
+input{
+    width: 650px;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+button{
+    position: absolute;
+    top: 220px;
+    left: 305px;
+    width: 336px;
+    height: 70px;
+    font-size: 25px;
+    color: white;
+    background-color: #F97A2C;
+    border-radius: 40px;
+}
+.problemas{
+    top: 230px;
+    position: absolute;
+    font-family: "light";
+    font-size: 15px;
+    text-align: center;
+}
+@keyframes animacion2{
+    0%{opacity: 100%;}
+    100%{opacity: 100%;}
+}

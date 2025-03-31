@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 56.25vw;
+}
+
+.recuadroprincipal{
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    background-color: white;
+}
+
+
+
+
+
+.recuadro1{
+    position: absolute;
+    width:16.09375vw;
+    height:41.14583vw;
+    background-color: #FF721B;
+    border: 0.3vw solid black;
+    border-radius: 2vw;
+    left: 1.5vw;
+    bottom: 1.2965vw;
+    
+}
+.r2 {
+    position: absolute;
+    border-radius: 2vw;
+    width: 13.125vw;
+    height: 3.22916vw;
+    background-color: white;
+    top: 21vw;
+    left: 25vw;
+
+
+}
+.recuadro3 {
+    position: absolute;
+    width:13.125vw;
+    height:26.51041vw;
+    background-color: #FF721B;
+    border-radius: 2vw;
+    top: 28vw;
+    left: 25vw;
+    border: 0.3vw solid black;
+}
+
+.r4 {
+    position: absolute;
+    border-radius: 2vw;
+    width: 13.125vw;
+    height: 3.22916vw;
+    background-color: white;
+    top: 21vw;
+    left: 43vw;
+
+}
+.recuadro5 {
+    position: absolute;
+    width:13.125vw;
+    height:26.51041vw;
+    background-color: #FF721B;
+    border: 0.3vw solid black;
+    border-radius: 2vw;
+    left: 43vw;
+    top: 28vw;
+}
+
+.r6 {
+    position: absolute;
+    border-radius: 2vw;
+    width: 13.125vw;
+    height: 3.22916vw;
+    background-color: white;
+    left: 61vw;
+    top: 21vw ;
+}
+
+.recuadro7 {
+    position: absolute;
+    width:13.125vw;
+    height:26.51041vw;
+    background-color: #FF721B;
+    border: 0.3vw solid black;
+    border-radius: 2vw;
+    top: 28vw;
+    left: 61vw;
+}
+
+.r8 {
+    position: absolute;
+    border-radius: 2vw;
+    width: 11.66666vw;
+    height: 3.22916vw;
+    background-color: white;
+    left: 79vw;
+    top: 21vw;
+}
+.circulo1{
+    position: absolute;
+    height: 6.5625vw;
+    width: 6.5625vw;
+    top: 29vw;
+    left: 79vw;
+    border-radius: 100% 0 0 0;
+    background-color: rgb(255, 255, 0);
+}
+.circulo2{
+    position: absolute;
+    top: 29vw;
+    left: 84.9999vw;
+    width: 6.5625vw;
+    height: 6.5625vw;
+    border-radius:  0 100% 0 0;
+    background-color: rgb(0, 255, 0);
+}
+.circulo3{
+    position: absolute;
+    top: 35.625vw;
+    left: 79vw;
+    height: 6.5625vw;
+    width: 6.5625vw;
+    border-radius: 0 0 0 100%;
+    background-color: rgb(255, 0, 0);
+}
+.circulo4{
+    position: absolute;
+    left: 84.9999vw;
+    top: 35.5625vw;
+    height: 6.5625vw;
+    width: 6.5625vw;
+    border-radius:  0 0 100% 0;
+    background-color: rgb(53, 166, 240);
+}
+.r9 {
+    position: absolute;
+    border-radius: 2vw;
+    width: 11.66666vw;
+    height: 3.22916vw;
+    background-color: white;
+    left: 84vw;
+    top: 5vw;
+}
+button {
+    color: black;
+}
+.porcentaje1{
+    position: absolute;
+    top:1.2vw;
+    left: 2vw;
+
+}
+.porcentaje2{
+    position: absolute;
+    top: 1.2vw;
+    left: 1.2vw;
+
+}
+.porcentaje3{
+    position: absolute;
+    top: 0.2vw;
+    left: 2vw;
+}
+.porcentaje4 {
+    position: absolute;
+    top: 0vw;
+    left: 1.2vw;
+}
+.añadir{
+    position: absolute;
+    width: 42.29166vw;
+    height: 4.75vw;
+    border-radius: 2vw;
+    top: 13vw;
+    left: 30vw;
+    background-color: white;
+}
+.imagen{
+    position: absolute;
+    width: 3.3vw;
+    top: 13.8vw;
+    left: 43.8vw;
+}
+.añadir2 {
+    position: absolute;
+    font-size: 2.8vw;
+    top: -2vw;
+    left: 18vw;
+}
+.salir {
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    background-color: #FF721B;
+    border-radius: 89%;
+    left: 1.5vw;
+    top: 5vw;
+}
+.salir2 {
+    position: absolute;
+    font-size: 3vw;
+    top: -3vw;
+    left: 0.5vw;
+    
+}
+.flecha {
+    text-decoration: none;
+    color: white;
+}
+.palabra1 {
+    position: absolute;
+    color: white;
+    left: 1vw;
+}
+.palabra2 {
+    position: absolute;
+    color: white;
+    left: 1vw;
+    top: 5vw;
+}
+.palabra3 {
+    position: absolute;
+    color: white;
+    left: 1vw;
+    top: 10vw;
+}
+.palabra4 {
+    position: absolute;
+    color: white;
+    left: 1vw;
+    top: 15vw;
+}
+.palabra5 {
+    position: absolute;
+    color: white;
+    left: 1vw;
+    top: 20vw;
+}
+.palabra6 {
+    position: absolute;
+    color: white;
+    left: 1vw;
+    top: 25vw;
+}
+.cumplimiento{
+    position: absolute;
+    top: -0.9vw;
+    left: 1vw;
+    font-size: 1.5vw;
+}
+.usuarios{
+    position: absolute;
+    top: -0.9vw;
+    left: 2.9vw;
+    font-size: 1.5vw;
+}
+.descripcion{
+    position: absolute;
+    top: -0.9vw;
+    left: 2.5vw;
+    font-size: 1.5vw;
+}
+
+.indicador{
+    position: absolute;
+    top: -0.9vw;
+    left: 3.1vw;
+    font-size: 1.5vw;
+}
+
+.configuracion{
+    position: absolute;
+    top: -0.9vw;
+    left: 1.1vw;
+    font-size: 1.5vw;
+}

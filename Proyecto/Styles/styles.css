@@ -42,7 +42,7 @@ body{
     left: 25.625vw;
     opacity: 0%;
     animation: animacion2  linear forwards;
-    animation-delay: 3.1s;
+    animation-delay: 0.1s;
 }
 .logo_2{
     position: absolute;
@@ -59,57 +59,75 @@ body{
     font-family: "light";
     src: url(../fonts/MyriadPro-Light.woff);
 }
-.panel-kario{
+.texto_1{
     position: absolute;
-    font-family: "regular";
+    font-family: "letra_3";
     text-align: center;
-    font-size: 40px;
-    left: 230px;
-    width: 500px;
-    height: 96px;
+    width: 26.04166vw;
+    height: 5vw;
+    font-size: 2.08333vw;
+    top: 9.16666vw;
+    left: 11.97916vw;
+   
 }
-.ingresar{
-    font-family: "light";
-    font-size: 20px;
-    left: 699px;
-width: auto;
-height: 20px;
-    text-align: center;
-}
-form{
+.texto_2{
     position: absolute;
-    font-family: "light";
-    font-size: 25px;
-    top: 20px;
-    left: 150px;
-width: 76px;
-height: 25px;
+    font-family: "letra_2";
+    top: 15.36458vw;
+    font-size: 1.04166vw;
+    left: 10.78125vw;
+    width: 28.05vw;
+    height: 1.04166vw;
+    text-align: center;
+}
+.datos_1{
+    position: absolute;
+    font-family: "letra_2";
+    font-size: 1.30208vw;
+    top: 17.60416vw;
+    left: 7.8125vw;
+    width: 3.95833vw;
+    height: 1.30208vw;
 }
 input{
-    width: 650px;
-    height: 50px;
-    border-radius: 20px;
-    margin-bottom: 20px;
+    width: 33.85416vw;
+    height: 2.60416vw;
+    border-radius: 1.04166vw;
+    margin-bottom: 1.04166vw;
 }
 button{
     position: absolute;
-    top: 220px;
-    left: 305px;
-    width: 336px;
-    height: 70px;
-    font-size: 25px;
+    width: 17.5vw;
+    height: 3.64583vw;
+    font-size: 1.30208vw;
+    top: 29.32296vw;
+    left: 15.88541vw;
     color: white;
     background-color: #F97A2C;
-    border-radius: 40px;
+    border-radius: 2.08333vw;
 }
-.problemas{
-    top: 230px;
+.texto_3{
     position: absolute;
-    font-family: "light";
-    font-size: 15px;
-    text-align: center;
+    font-family: "letra_2";
+    font-size: 0.7vw;
+    height: 0.78125vw;
+    width: 30.625vw;
+    top: 34.84375vw;
+    left:9.0625vw ;
 }
 @keyframes animacion2{
     0%{opacity: 100%;}
     100%{opacity: 100%;}
+}
+@font-face {
+    font-family: letra_1;
+    src: url(../Letras/MYRIADPRO-BOLD.woff);
+}
+@font-face {
+    font-family: letra_2;
+    src: url(../Letras/MyriadPro-Light.woff);
+}
+@font-face {
+    font-family: letra_3;
+    src: url(../Letras/MYRIADPRO-REGULAR.woff);
 }

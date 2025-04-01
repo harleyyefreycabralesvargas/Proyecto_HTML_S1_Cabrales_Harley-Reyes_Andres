@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 56.25vw;
+}
+.cuadroprincipal {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    background-color: white;
+}
+.cuadro1 {
+    position: absolute;
+    width: 25.625vw;
+    height: 11.82291vw;
+    background-color:#FF721B ;
+    border-radius: 2vw;
+    border: 0.2vw solid black;
+    top: 27vw;
+    left: 2vw;
+}
+.cuadro2{
+    position:absolute;
+    width: 25.625vw;
+    height: 2.9vw;
+    border-radius: 2vw;
+    border: 0.2vw solid black;
+    background-color: white;
+    left: 2vw;
+    top: 22.9vw;
+}
+.descripcion {
+    position: absolute;
+    top: -0.7vw;
+    left: 2.2vw;
+    font-size: 1.3vw;
+}
+.cuadro3{
+    position: absolute;
+    width: 25.625vw;
+    height: 11.82291vw;
+    background-color:#FF721B ;
+    border-radius: 2vw;
+    border: 0.2vw solid black;
+    top: 27vw;
+    left: 35vw;
+}
+.cuadro4 {
+    position:absolute;
+    width: 25.625vw;
+    height: 2.9vw;
+    border-radius: 2vw;
+    border: 0.2vw solid black;
+    background-color: white;
+    top: 22.9vw;
+    left: 35vw;
+}
+.seleccionar{
+    position: absolute;
+    top: -0.7vw;
+    left: 8.9vw;
+    font-size: 1.3vw;
+}
+.cuadro5{
+    position: absolute;
+    width: 25.625vw;
+    height: 11.82291vw;
+    background-color:#FF721B ;
+    border-radius: 2vw;
+    border: 0.2vw solid black;
+    top: 27vw;
+    left: 69vw;
+}
+.cuadro6 {
+    position:absolute;
+    width: 25.625vw;
+    height: 2.9vw;
+    border-radius: 2vw;
+    border: 0.2vw solid black;
+    background-color: white;
+    left: 69vw;
+    top: 22.9vw;
+}
+.seleccionar_categoria{
+    position: absolute;
+    top: -0.7vw;
+    left: 5.9vw;
+    font-size: 1.3vw;
+}
+.cuadro7{
+    position:absolute;
+    width: 13.625vw;
+    height: 2.9vw;
+    border-radius: 1vw;
+    border: 0.2vw solid black;
+    background-color: white;
+    top: 47vw;
+    left: 39vw;
+}
+.enviar{
+    position: absolute;
+    top: -0.7vw;
+    left: 4.7vw;
+    font-size: 1.3vw;
+}
+.texto1 {
+    position: absolute;
+    font-size: 1.3vw;
+    color: black;
+    top: 15.9vw;
+    left: 33.8vw;
+}
+.reportar_problema{
+    position: absolute;
+    font-size: 1.7vw;
+    color: black;
+    top: 11.9vw;
+    left: 40.6vw;
+}
+.logo{
+    position: absolute;
+    width: 9vw;
+    height: 7vw;
+    left: 42vw;
+    top: 2vw;
+}
+.spam{
+    position: absolute;
+    font-size: 1.3vw;
+    left: 1.5vw;
+}
+.abuso{
+    position: absolute;
+    font-size: 1.3vw;
+    left: 1.5vw;
+    top: 2vw;
+}
+.contenido{
+    position: absolute;
+    font-size: 1.3vw;
+    left: 1.5vw;
+    top: 4vw;
+}
+.informacion{
+    position: absolute;
+    font-size: 1.3vw;
+    left: 1.5vw;
+    top: 6vw;
+}
+.parametro{
+    position: absolute;
+    font-size: 1.3vw;
+    left: 1.5vw;
+    top: 8vw;
+}
+.problema{
+    position: absolute;
+    font-size: 1.3vw;
+    left: 1.5vw;
+}
+.denunciar{
+    position: absolute;
+    font-size: 1.3vw;
+    left: 1.5vw;
+    top: 3vw;
+}
+.enviar_reporte{
+    position: absolute;
+    font-size: 1.3vw;
+    left: 1.5vw;
+    top: 6vw;
+}
+.boton{
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    background-color: #FF721B;
+    border-radius: 89%;
+    left: 1.5vw;
+    top: 4vw;
+}
+.flecha{
+    position: absolute;
+    font-size:2vw;
+    top: -1.7vw;
+    left: 0.8vw;
+}

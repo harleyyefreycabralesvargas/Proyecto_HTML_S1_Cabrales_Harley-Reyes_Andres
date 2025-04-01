@@ -214,36 +214,42 @@ button {
     position: absolute;
     color: white;
     left: 1vw;
+    font-size:2vw ;
 }
 .palabra2 {
     position: absolute;
     color: white;
     left: 1vw;
     top: 5vw;
+    font-size:2vw ;
 }
 .palabra3 {
     position: absolute;
     color: white;
     left: 1vw;
     top: 10vw;
+    font-size:2vw ;
 }
 .palabra4 {
     position: absolute;
     color: white;
     left: 1vw;
     top: 15vw;
+    font-size:2vw ;
 }
 .palabra5 {
     position: absolute;
     color: white;
     left: 1vw;
     top: 20vw;
+    font-size:2vw ;
 }
 .palabra6 {
     position: absolute;
     color: white;
     left: 1vw;
     top: 25vw;
+    font-size:2vw ;
 }
 .cumplimiento{
     position: absolute;
@@ -276,4 +282,11 @@ button {
     top: -0.9vw;
     left: 1.1vw;
     font-size: 1.5vw;
+}
+.kario{
+    position: absolute;
+    width: 9vw;
+    height: 7vw;
+    left: 46vw;
+    top: 2.9vw;
 }

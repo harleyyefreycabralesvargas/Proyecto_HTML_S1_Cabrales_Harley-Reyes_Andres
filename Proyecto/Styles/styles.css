@@ -1,25 +1,25 @@
 body{
    margin: 0;
    width: 100vw;
-   height: 56.25vw;
+   height: 56.25vh;
 }
 .fondo_negro{
     position: absolute;
     width: 100vw;
-    height: 56.25vw;
+    height: 56.25vh;
     background-color: black;
 }
 .fondo_imagen{
     position: absolute;
     width: 100vw;
-    height: 56.25vw;
+    height: 56.25vh;
 }
 .logo_1{
     margin: 0;
     position: absolute;
     width: 10.208333vw;
-    height: 9.16666vw;
-    top:23vw;
+    height: 9.16666vh;
+    top:23vh;
     left: 44.89583vw;
     opacity: 0%;
   
@@ -36,9 +36,9 @@ body{
     position: absolute;
     background-color: white;
     width: 48.75vw;
-    height: 39.63541vw;
-    border-radius: 3.48958vw;
-    top: 8.33333vw;
+    height: 39.63541vh;
+    border-radius: 3.48958%;
+    top: 8.33333vh;
     left: 25.625vw;
     opacity: 0%;
     animation: animacion2  linear forwards;
@@ -47,8 +47,8 @@ body{
 .logo_2{
     position: absolute;
     width: 5.36458vw;
-    height: 6.04166;
-    top: 1.95312vw;
+    height: 6.04166vh;
+    top: 1.95312vh;
     left: 22.39583vw;
 }
 @font-face {
@@ -64,34 +64,34 @@ body{
     font-family: "letra_3";
     text-align: center;
     width: 26.04166vw;
-    height: 5vw;
+    height: 5vh;
     font-size: 2.08333vw;
-    top: 9.16666vw;
+    top: 9.16666vh;
     left: 11.97916vw;
    
 }
 .texto_2{
     position: absolute;
     font-family: "letra_2";
-    top: 15.36458vw;
+    top: 15.36458vh;
     font-size: 1.04166vw;
     left: 10.78125vw;
     width: 28.05vw;
-    height: 1.04166vw;
+    height: 1.04166vh;
     text-align: center;
 }
 .datos_1{
     position: absolute;
     font-family: "letra_2";
     font-size: 1.30208vw;
-    top: 17.60416vw;
+    top: 17.60416vh;
     left: 7.8125vw;
     width: 3.95833vw;
-    height: 1.30208vw;
+    height: 1.30208vh;
 }
 input{
     width: 33.85416vw;
-    height: 2.60416vw;
+    height: 2.60416vh;
     border-radius: 1.04166vw;
     margin-bottom: 1.04166vw;
 }

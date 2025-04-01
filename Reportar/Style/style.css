@@ -1,187 +1,63 @@
 body {
+    font-family:"letra_3";
+    background: white;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 56.25vh;
     margin: 0;
-    width: 100vw;
-    height: 56.25vw;
 }
-.cuadroprincipal {
+.container {
     position: absolute;
-    width: 100vw;
-    height: 56.25vw;
-    background-color: white;
+    background: rgb(188, 0, 0);
+    width: 65.6666vw;
+    height: 41.6666vh;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    top: 20vh;
+    left: 5vw;
 }
-.cuadro1 {
+h2 {
     position: absolute;
-    width: 25.625vw;
-    height: 11.82291vw;
-    background-color:#FF721B ;
-    border-radius: 2vw;
-    border: 0.2vw solid black;
-    top: 27vw;
-    left: 2vw;
+    color: #333;
 }
-.cuadro2{
-    position:absolute;
-    width: 25.625vw;
-    height: 2.9vw;
-    border-radius: 2vw;
-    border: 0.2vw solid black;
-    background-color: white;
-    left: 2vw;
-    top: 22.9vw;
-}
-.descripcion {
+.input-box, select {
     position: absolute;
-    top: -0.7vw;
-    left: 2.2vw;
-    font-size: 1.3vw;
+    width:30vw;
+    padding: 1vw;
+    margin: 10pw;
+    border: 1px solid blue;
+    border-radius: 6px;
+    font-size: 1.6vw;
+    top: 23vh;
+    left: 24vw;
 }
-.cuadro3{
+button {
     position: absolute;
-    width: 25.625vw;
-    height: 11.82291vw;
-    background-color:#FF721B ;
-    border-radius: 2vw;
-    border: 0.2vw solid black;
-    top: 27vw;
-    left: 35vw;
-}
-.cuadro4 {
-    position:absolute;
-    width: 25.625vw;
-    height: 2.9vw;
-    border-radius: 2vw;
-    border: 0.2vw solid black;
-    background-color: white;
-    top: 22.9vw;
-    left: 35vw;
-}
-.seleccionar{
-    position: absolute;
-    top: -0.7vw;
-    left: 8.9vw;
-    font-size: 1.3vw;
-}
-.cuadro5{
-    position: absolute;
-    width: 25.625vw;
-    height: 11.82291vw;
-    background-color:#FF721B ;
-    border-radius: 2vw;
-    border: 0.2vw solid black;
-    top: 27vw;
-    left: 69vw;
-}
-.cuadro6 {
-    position:absolute;
-    width: 25.625vw;
-    height: 2.9vw;
-    border-radius: 2vw;
-    border: 0.2vw solid black;
-    background-color: white;
-    left: 69vw;
-    top: 22.9vw;
-}
-.seleccionar_categoria{
-    position: absolute;
-    top: -0.7vw;
-    left: 5.9vw;
-    font-size: 1.3vw;
-}
-.cuadro7{
-    position:absolute;
-    width: 13.625vw;
-    height: 2.9vw;
+    background: #FF6F2C ;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 10vw;
     border-radius: 1vw;
-    border: 0.2vw solid black;
-    background-color: white;
-    top: 47vw;
-    left: 39vw;
+    font-size: 1.8vw;
+    cursor: pointer;
+    top: 38vh;
+    left: 23vw;
 }
-.enviar{
-    position: absolute;
-    top: -0.7vw;
-    left: 4.7vw;
-    font-size: 1.3vw;
+button:hover {
+    background: yellow;
 }
-.texto1 {
-    position: absolute;
-    font-size: 1.3vw;
-    color: black;
-    top: 15.9vw;
-    left: 33.8vw;
+@font-face {
+    font-family: letra_1;
+    src: url(../Letras/MYRIADPRO-BOLD.woff);
 }
-.reportar_problema{
-    position: absolute;
-    font-size: 1.7vw;
-    color: black;
-    top: 11.9vw;
-    left: 40.6vw;
+@font-face {
+    font-family: letra_2;
+    src: url(../Letras/MyriadPro-Light.woff);
 }
-.logo{
-    position: absolute;
-    width: 9vw;
-    height: 7vw;
-    left: 42vw;
-    top: 2vw;
-}
-.spam{
-    position: absolute;
-    font-size: 1.3vw;
-    left: 1.5vw;
-}
-.abuso{
-    position: absolute;
-    font-size: 1.3vw;
-    left: 1.5vw;
-    top: 2vw;
-}
-.contenido{
-    position: absolute;
-    font-size: 1.3vw;
-    left: 1.5vw;
-    top: 4vw;
-}
-.informacion{
-    position: absolute;
-    font-size: 1.3vw;
-    left: 1.5vw;
-    top: 6vw;
-}
-.parametro{
-    position: absolute;
-    font-size: 1.3vw;
-    left: 1.5vw;
-    top: 8vw;
-}
-.problema{
-    position: absolute;
-    font-size: 1.3vw;
-    left: 1.5vw;
-}
-.denunciar{
-    position: absolute;
-    font-size: 1.3vw;
-    left: 1.5vw;
-    top: 3vw;
-}
-.enviar_reporte{
-    position: absolute;
-    font-size: 1.3vw;
-    left: 1.5vw;
-    top: 6vw;
-}
-.boton{
-    position: absolute;
-    width: 3vw;
-    height: 3vw;
-    background-color: #FF721B;
-    border-radius: 89%;
-    left: 1.5vw;
-    top: 4vw;
-}
-.flecha{
-    position: absolute;
-    font-size:2vw;
-    top: -1.7vw;
-    left: 0.8vw;
+@font-face {
+    font-family: letra_3;
+    src: url(../Letras/MYRIADPRO-REGULAR.woff);
 }

@@ -1,0 +1,446 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 56.25vh;
+}
+@font-face {
+    font-family: letra_1;
+    src: url(../Letras/MYRIADPRO-BOLD.woff);
+}
+@font-face {
+    font-family: letra_2;
+    src: url(../Letras/MyriadPro-Light.woff);
+}
+@font-face {
+    font-family: letra_3;
+    src: url(../Letras/MYRIADPRO-REGULAR.woff);
+}
+.negro{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    animation: off 3s linear;
+}
+.fondo{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.blanco_1{
+    position: absolute;
+    width: 48.75vw;
+    height: 50.83333vh;
+    left: 25.6vw;
+    top: 25.51vh;
+    border-radius: 16px;
+    background-color: white;
+    animation: off 0.1s linear forwards;
+    animation-delay: 2s;
+}
+.logo_1{
+    position: absolute;
+    opacity: 100%;
+    width: 10.26vw;
+    height: 16.296vh;
+    left: 19.17vw;
+    animation: aparecer 1s linear;
+    position: absolute;
+    animation-delay: 2.2s;
+    animation: off 0.1s linear forwards;
+    animation-delay: 2s;
+}
+.bienvenido{
+    position: absolute;
+    font-family: "letra_1";
+    font-size: 2vw;
+    margin-top: 10%;
+    left: 16vw;
+    top: 10vh;
+    animation: off 0.1s linear forwards;
+    animation-delay: 2s;
+}
+.foto_1{
+    position: absolute;
+    opacity: 100%;
+    width: 4.75vw;
+    height: 5.833vh;
+    left: 22vw;
+    top: 24vh;
+    background-color: white;
+    border-radius: 3vw;
+    animation: off 0.1s linear forwards;
+    animation-delay: 2s;
+}
+.andres{
+    position: absolute;
+    font-family: "letra_1";
+    font-size: 2vw;
+    left: 13vw;
+    top: 29vh;
+    animation: off 0.1s linear forwards;
+    animation-delay: 2s;
+}
+.usuario{
+    position: absolute;
+    font-family: "letra_2";
+    font-size: 1vw;
+    left: 20vw;
+    top: 39vh;
+    animation: off 0.1s linear forwards;
+    animation-delay: 2s;
+}
+.logo_2{
+    position: absolute;
+    opacity: 0%;
+    width: 10.208vw;
+    height: 16.29vh;
+    left: 44.89583vw;
+    top: 39vh;
+    animation: on 2s linear forwards;
+    animation-delay: 2s;
+}
+.blanco_2{
+    position: absolute;
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    animation: on 2s linear forwards;
+    animation-delay: 4s;
+
+}
+@keyframes on{
+    0%{
+        opacity: 0%;
+    }
+    99%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes off{
+    0% {
+        opacity: 100%;
+    }
+
+    99% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+/*
+.logo {
+    opacity: 0%;
+    width: 10.26vw;
+    height: 16.296vh;
+    animation: aparecer 1s linear;
+    position: absolute;
+    animation-delay: 2.2s;
+}
+
+.negro {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    left: 2%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    opacity: 0;
+    animation: aparecer 8s 3s forwards;
+    position: absolute;
+
+
+
+}
+
+
+.negro>div {
+    background-color: rgb(255, 255, 255);
+    margin: 0vw;
+    padding: 2vw;
+    font-size: 30px;
+    width: 90vw;
+}
+
+.i1 {
+    margin: -0.9vw 0vw 0vw 4vw;
+    position: absolute;
+    width: 1.5vw;
+}
+
+.i2 {
+    margin: -0.5vw 0vw 0vw 84.7vw;
+    position: absolute;
+    width: 1.2vw;
+}
+
+.i3 {
+    margin: -0.9vw 0vw 0vw 70vw;
+    position: absolute;
+    width: 1.5vw;
+}
+
+.i4 {
+    margin: -0.9vw 0vw 0vw 57vw;
+    position: absolute;
+    width: 1.4vw;
+}
+
+.i5 {
+    margin: -1.6vw 0vw 0vw 88.2vw;
+    position: absolute;
+    width: 2.5vw;
+}
+
+.i6 {
+    margin: -0.9vw 0vw 0vw 31vw;
+    position: absolute;
+    width: 1.1vw;
+}
+
+.i7 {
+    margin: -0.5vw 0vw 0vw 86.5vw;
+    position: absolute;
+    width: 1.1vw;
+}
+
+.i8 {
+    margin: -0.8vw 0vw 0vw 18vw;
+    position: absolute;
+    width: 1.2vw;
+}
+
+.i9 {
+    margin: -1vw 0vw 0vw 46vw;
+    position: absolute;
+    width: 2vw;
+}
+
+.Fondo_Principal2 {
+    font-size: 1.8vw;
+    margin: 0.4vw 0vw 0vw 39vw;
+    position: absolute;
+}
+
+.Fondo_Principal3 {
+    font-size: 1.2vw;
+    margin: -0.8vw 0vw 0vw 26vw;
+    font-weight: 500;
+    position: absolute;
+}
+
+.Fondo_Principal4 {
+    font-size: 0.85vw;
+    font-weight: 700;
+    margin: -1.4vw 0vw 0vw 0vw;
+    position: absolute;
+}
+
+.Fondo_Principal5-1 {
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+    width: 84vw;
+    height: 3.3vw;
+    margin: -4vw 0vw 0vw 1.7vw;
+    position: absolute;
+}
+
+.Fondo_Principal6-1 {
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+    width: 84vw;
+    height: 3.3vw;
+    margin: -2.9vw 0vw 0vw 1.7vw;
+    position: absolute;
+}
+
+.Fondo_Principal7-1 {
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+    width: 84vw;
+    height: 3.3vw;
+    margin: -1.5vw 0vw 0vw 1.7vw;
+    position: absolute;
+}
+
+.Fondo_Principal8-1 {
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+    width: 84vw;
+    height: 3.3vw;
+    margin: -0.9vw 0vw 0vw 1.7vw;
+    position: absolute;
+}
+
+.Fondo_Principal9-1 {
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+    width: 84vw;
+    height: 3.3vw;
+    margin: -0.3vw 0vw 0vw 1.7vw;
+    position: absolute;
+}
+
+.Fondo_Principal10-1 {
+    border: 0.1vw solid black;
+    font-size: 1vw;
+    font-weight: 700;
+    width: 8vw;
+    height: 1.5vw;
+    margin: 2vw 0vw 0vw 40vw;
+    padding: 10px 2vw;
+    background-color: #ec8a2f;
+    color: white;
+    border: none;
+    border-radius: 1.5vw;
+    cursor: pointer;
+    position: absolute;
+}
+
+.Fondo_Principal10-1:hover {
+    background-color: #ca7d24;
+}
+
+.Fondo_Principal10-1:active {
+    background-color: #f39d1d;
+}
+
+.letras1 {
+    font-size: 1.2vw;
+    margin: -0.8vw 0vw 0vw 5.8vw;
+    position: absolute;
+}
+
+.letras2 {
+    font-size: 1.2vw;
+    margin: -0.8vw 0vw 0vw 19.8vw;
+    position: absolute;
+}
+
+.letras3 {
+    font-size: 1.2vw;
+    margin: -0.8vw 0vw 0vw 33vw;
+    position: absolute;
+}
+
+.letras4 {
+    font-size: 1.2vw;
+    margin: -0.7vw 0vw 0vw 59.2vw;
+    position: absolute;
+}
+
+.letras5 {
+    font-size: 1.2vw;
+    margin: -0.7vw 0vw 0vw 72vw;
+    position: absolute;
+}
+
+.letras6 {
+    font-size: 1.2vw;
+    margin: 3vw 0vw 0vw 0vw;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.raya {
+    background-color: black;
+    width: 500vw;
+    height: 0.09vw;
+    margin: 1.5vw 0vw 0vw -6vw;
+    position: absolute;
+}
+
+.juan1 {
+    font-size: 0.7vw;
+    margin: 1.2vw 0vw 0vw 0vw;
+}
+
+.juan2 {
+    font-size: 0.7vw;
+    margin: 1.2vw 0vw 0vw 0vw;
+}
+
+.juan3 {
+    font-size: 0.7vw;
+    margin: 1.2vw 0vw 0vw 0vw;
+}
+
+.juan4 {
+    font-size: 0.7vw;
+    margin: 1.2vw 0vw 0vw 0vw;
+}
+
+.juan5 {
+    font-size: 0.7vw;
+    margin: 1.2vw 0vw 0vw 0vw;
+}
+
+.p1 {
+    position: absolute;
+    width: 3vw;
+    margin: -0.7vw 0vw 0vw 0vw;
+}
+
+.p2 {
+    position: absolute;
+    width: 2.2vw;
+    margin: -0.7vw 0vw 0vw 1vw;
+}
+
+.p3 {
+    position: absolute;
+    width: 3vw;
+    margin: -0.7vw 0vw 0vw 1.7vw;
+}
+
+.p4 {
+    position: absolute;
+    width: 3vw;
+    margin: -0.7vw 0vw 0vw 1vw;
+}
+
+.p5 {
+    position: absolute;
+    width: 3vw;
+    margin: -0.7vw 0vw 0vw 0.3vw;
+}
+
+.g1 {
+    position: absolute;
+    width: 1.4vw;
+    margin: 0vw 0vw 0vw -0.5vw;
+}
+
+.g2 {
+    position: absolute;
+    width: 1.4vw;
+    margin: 0vw 0vw 0vw -0.5vw;
+}
+
+.g3 {
+    position: absolute;
+    width: 1.4vw;
+    margin: 0vw 0vw 0vw -0.1vw;
+}
+
+.g4 {
+    position: absolute;
+    width: 1.4vw;
+    margin: 0vw 0vw 0vw -0.6vw;
+}
+
+.g5 {
+    position: absolute;
+    width: 1.4vw;
+    margin: 0vw 0vw 0vw -0.2vw;
+}

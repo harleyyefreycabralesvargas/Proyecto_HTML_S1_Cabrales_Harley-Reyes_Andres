@@ -51,14 +51,6 @@ body{
     top: 1.95312vh;
     left: 22.39583vw;
 }
-@font-face {
-    font-family: "regular";
-    src: url(../fonts/MYRIADPRO-REGULAR.woff);
-}
-@font-face {
-    font-family: "light";
-    src: url(../fonts/MyriadPro-Light.woff);
-}
 .texto_1{
     position: absolute;
     font-family: "letra_3";

@@ -1,0 +1,76 @@
+.recuadroprincipal{ 
+    margin: 0;
+    width: 100vw;
+    height: 56.25vh;
+}
+.recuadro1{
+    position: absolute;
+    width: 38.35416vw;
+    height: 28.125vh;
+    background-color: white;
+    border-radius: 2vw;
+    border: 0.1vw solid black;
+    top: 46vh;
+    left: 29vw;
+}
+.logo {
+    position: absolute;
+    width: 26.14583vw;
+    height: 18.63541vh;
+    top: 8vh;
+    left: 35vw;
+}
+.texto1{
+    position: absolute;
+    font-size: 2.2vw;
+    width: 33vw;
+    top: 47vh;
+    left: 32vw;
+}
+.recuadro2{
+    position: absolute;
+    background-color:#FF6F2C ;
+    border-radius: 2vw  ;
+    border-color: gray 10%;
+   width: 13vw;
+   height: 7.5vh;
+   top: 64vh;
+   left: 31vw;
+}
+.aceptar{
+    position: absolute;
+    font-size: 2.5vw;
+    top: -3.3vh;
+    left: 2.2vw;
+    color: white;
+    text-decoration: none;
+}
+.recuadro3{
+    position: absolute;
+    background-color:#FF6F2C ;
+    border-radius: 2vw  ;
+    border-color: gray 10%;
+    width: 13vw;
+    height: 7.5vh;
+    top: 64vh;
+   left: 51vw;
+}
+.cancelar{
+    position: absolute;
+    font-size: 2.5vw;
+    top: -3.3vh;
+    left: 1.3vw;
+    color: white;
+    text-decoration: none;
+}
+.left {
+    position: absolute;
+    width: 0vw;
+    height: 0vh;
+    border-top: 26px solid transparent;
+    border-bottom: 26px solid transparent;
+    border-right: 25px solid black; /* Color de la flecha */
+    top: 1vh;
+    left: 2vw;
+  }
+  

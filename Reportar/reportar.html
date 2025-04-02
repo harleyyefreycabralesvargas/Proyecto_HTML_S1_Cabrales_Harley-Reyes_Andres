@@ -7,21 +7,30 @@
     <link rel="stylesheet" href="Style/style.css">
 </head>
 <body>
+    <div class="opciones"> 
+        <img src="./Imagenes/c0.webp" class="i1">
+        <img src="./Imagenes/c1.svg" class="i2">
+        <img src="./Imagenes/c2.svg" class="i3">
+        <img src="./Imagenes/c3.svg" class="i4">
+        <img src="./Imagenes/c4.svg" class="i5">
+        <img src="./Imagenes/c5.svg" class="i6">
+        <img src="./Imagenes/c6.svg" class="i7">
+        <img src="./Imagenes/c7.svg" class="i8">
+        <img src="./Imagenes/c8.svg" class="i9">
+        <div ><a class="letra1" href="../Añadir/Añadir.html">Añadir </a></div>
+        <div ><a class="letra2" href="../Reportar/reportar.html">Refrescar</a></div>
+        <div ><a class="letra3" href="./index6.htm">Eliminar</a></div>
+        <div ><a class="letra4" href="../Reportar/reportar.html">Reportar</a></div>
+        <div ><a class="letra5" href="./index7.html">Ayuda</a></div>
+        <div class="linea"></div>
+    </div>
     <div class="container">
-        <h2>Reportar Problema</h2>
-        <p>Describe el problema y selecciona una categoría</p>
+        <p class="texto1">Reportar Problema</p>
+        <p class="texto2">Describe el problema y selecciona una categoría.</p>
         
-        <textarea class="input-box" placeholder="Añade una descripción del reporte"></textarea>
+        <textarea id="input-box" placeholder="Añade una descripción del reporte"></textarea>
         
-        <select class="input-box">
-            <option>Selecciona una opción</option>
-            <option>Reportar problema</option>
-            <option>Denunciar contenido</option>
-            <option>Enviar reporte</option>
-        </select>
-        
-        <select class="input-box">
-            <option>Selecciona una categoría</option>
+        <select id="cuadro2" placeholder="Seleccione un problema">
             <option>Spam (publicidad no deseada)</option>
             <option>Abuso o acoso</option>
             <option>Contenido ofensivo</option>
@@ -29,7 +38,14 @@
             <option>Parámetro incorrecto</option>
         </select>
         
+
+        
         <button>Enviar</button>
+        
+    </div>
+    <div class="salir" >
+               
+        <p class="salir2"> <a class="flecha" href="../Inicio/inicio.html"></a></p>        
     </div>
 </body>
 </html>

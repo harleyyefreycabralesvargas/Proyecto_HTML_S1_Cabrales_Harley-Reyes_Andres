@@ -1,90 +1,80 @@
-body {
-    font-family:"letra_3";
-    background: white;
-    justify-content: center;
-    align-items: center;
+.recuadroprincipal{ 
+    margin: 0;
     width: 100vw;
     height: 56.25vh;
-    margin: 0;
 }
-.container {
+.recuadro1{
     position: absolute;
-    background: white;
-    width: 75.6666vw;
-    height: 80.6666vh;
-    padding: 30px;
+    width: 38.35416vw;
+    height: 28.125vh;
+    background-color: white;
     border-radius: 2vw;
-    text-align: center;
+    border: 0.1vw solid black;
+    top: 46vh;
+    left: 29vw;
+}
+.logo {
+    position: absolute;
+    width: 26.14583vw;
+    height: 18.63541vh;
     top: 8vh;
-    left: 10.5vw;
-    font-size: 1.8vw;
-    border: 2px solid black;
+    left: 35vw;
 }
-h2 {
-    position: absolute;
-    color: #333;
-}
-#input-box {
-    position: absolute;
-    width:50vw;
-    height: 28vh;
-    padding:8wv;
-    margin: 2pw;
-    border: 1px solid blue;
-    border-radius: 2vw;
-    top: 45vh;
-    left: 14.5vw;
-    font-size: 1.3vw;
-    text-align: center;
-}
-button {
-    position: absolute;
-    background: #FF6F2C ;
-    width: 15vw;
-    height: 4vw;
-    color: white;
-    border: none;
-    border-radius: 1vw;
-    font-size: 2.8vw;
-    top: 77vh;
-    left: 31.5vw;
-}
-
-@font-face {
-    font-family: letra_1;
-    src: url(../Letras/MYRIADPRO-BOLD.woff);
-}
-@font-face {
-    font-family: letra_2;
-    src: url(../Letras/MyriadPro-Light.woff);
-}
-@font-face {
-    font-family: letra_3;
-    src: url(../Letras/MYRIADPRO-REGULAR.woff);
-}
-
 .texto1{
     position: absolute;
-    font-size: 3.9vw;
-    left: 25vw;
-    top: 0;
+    font-size: 2.2vw;
+    width: 33vw;
+    top: 47vh;
+    left: 32vw;
 }
-.texto2{
+.recuadro2{
     position: absolute;
-    font-size: 2.7vw;
-    top: 16vh;
-    left: 14.5vw;
+    background-color:#FF6F2C ;
+    border-radius: 2vw  ;
+    border-color: gray 10%;
+   width: 13vw;
+   height: 7.5vh;
+   top: 64vh;
+   left: 31vw;
 }
-#cuadro2{
+.aceptar{
     position: absolute;
-    width: 27vw;
-    height: 6vh;
-    left: 26.5vw;
-    top:34vh ;
-    font-size: 1.3vw;
-    border: 1px solid black;
+    font-size: 2.5vw;
+    top: -3.3vh;
+    left: 2.2vw;
+    color: white;
+    text-decoration: none;
 }
-.i2{
+.recuadro3{
+    position: absolute;
+    background-color:#FF6F2C ;
+    border-radius: 2vw  ;
+    border-color: gray 10%;
+    width: 13vw;
+    height: 7.5vh;
+    top: 64vh;
+   left: 51vw;
+}
+.cancelar{
+    position: absolute;
+    font-size: 2.5vw;
+    top: -3.3vh;
+    left: 1.3vw;
+    color: white;
+    text-decoration: none;
+}
+.left {
+    position: absolute;
+    width: 0vw;
+    height: 0vh;
+    border-top: 26px solid transparent;
+    border-bottom: 26px solid transparent;
+    border-right: 25px solid black; /* Color de la flecha */
+    top: 1vh;
+    left: 2vw;
+  }
+  
+  .i2{
     position: absolute;
     right: 88.54vw;
     width: 45x;
@@ -205,15 +195,4 @@ button {
     top: 5.5vh;
     height: 0.15vh;
     width: 100vw;
-}
-.flecha {
-
-    position: absolute;
-    width: 0vw;
-    height: 0vh;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-right: 25px solid black; /* Color de la flecha */
-    top: 1vh;
-    left: 2vw;
 }

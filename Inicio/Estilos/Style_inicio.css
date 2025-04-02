@@ -1,8 +1,3 @@
-body {
-    margin: 0;
-    width: 100vw;
-    height: 56.25vh;
-}
 @font-face {
     font-family: letra_1;
     src: url(../Letras/MYRIADPRO-BOLD.woff);
@@ -14,6 +9,35 @@ body {
 @font-face {
     font-family: letra_3;
     src: url(../Letras/MYRIADPRO-REGULAR.woff);
+}
+@keyframes on{
+    0%{
+        opacity: 0%;
+    }
+    99%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes off{
+    0% {
+        opacity: 100%;
+    }
+
+    99% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+body {
+    margin: 0;
+    width: 100vw;
+    height: 56.25vh;
 }
 .negro{
     position: absolute;
@@ -100,40 +124,140 @@ body {
     animation: on 2s linear forwards;
     animation-delay: 2s;
 }
+/*parte 2*/
 .blanco_2{
     position: absolute;
     opacity: 0;
     width: 100vw;
     height: 100vh;
     background-color: white;
-    animation: on 2s linear forwards;
-    animation-delay: 4s;
+    animation: on 0s linear forwards;
+    animation-delay: 0s;
+}
+.i2{
+    position: absolute;
+    right: 88.54vw;
+    width: 45x;
+    height: 45px;
+    top: 0.6vh;
+}
+.letra1{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-family: "letra_3";
+    font-size: 30px;
+    left: 12.5vw;
+    top: 1.4vh;
+}
+.i3{
+    position: absolute;
+    right:76.5vw;
+    top: 0.6vh;
+    width: 45px;
+    height: 45px;
+}
+.letra2{
+    position: absolute;
+    font-family: "letra_3";
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    left: 24vw;
+    top: 1.4vh;
+}
+.i4{
+    position: absolute;
+    right: 62.5vw;
+    top: 0.6vh;
+    width: 45px;
+    height: 45px;
+}
+.letra3{
+    position: absolute;
+    font-family: "letra_3";
+    text-decoration: none;
+    color: black;
+    font-family: "letra_3";
+    font-size: 30px;
+    left: 37.6vw;
+    top: 1.4vh;
+}
+.i5{
+    position: absolute;
+    right : 48.3vw;
+    top: 0.6vh;
+    width: 45px;
+    height: 45px;
+}
+.i7{
+    position: absolute;
+    right: 34.7vw;
+    top: 0.6vh;
+    width: 45px;
+    height: 45px;
 
 }
-@keyframes on{
-    0%{
-        opacity: 0%;
-    }
-    99%{
-        opacity: 100%;
-    }
-    100%{
-        opacity: 100%;
-    }
+.letra4{
+    position: absolute;
+    font-family: "letra_3";
+    text-decoration: none;
+    color: black;
+    font-family: "letra_3";
+    font-size: 30px;
+    left: 66vw;
+    top: 1.4vh;
 }
-@keyframes off{
-    0% {
-        opacity: 100%;
-    }
-
-    99% {
-        opacity: 100%;
-    }
-
-    100% {
-        opacity: 0%;
-    }
+.i6{
+    position: absolute;
+    right: 20.6vw;
+    top: 0.6vh;
+    width: 45px;
+    height: 45px;
 }
+.letra5{
+    position: absolute;
+    font-family: "letra_3";
+    text-decoration: none;
+    color: black;
+    font-family: "letra_3";
+    font-size: 30px;
+    left: 80vw;
+    top: 1.4vh;
+}
+.i8{
+    position: absolute;
+    top: 0.5vw;
+    width: 30px;
+    height: 30px;
+    left: 87vw;
+    border-radius: 100%;
+}
+.i9{
+    position: absolute;
+    top: 0.5vw;
+    width: 30px;
+    height: 30px;
+    left: 90vw;
+    border-radius: 100%;
+}
+.i1{
+    position: absolute;
+    top: 0.2vw;
+    width: 50px;
+    height: 50px;
+    left: 96.8vw;
+    border-radius: 100%;
+}
+.linea{
+    position: absolute;
+    background-color: black;
+    top: 5.5vh;
+    height: 0.15vh;
+    width: 100vw;
+}
+
+
 /*
 .logo {
     opacity: 0%;

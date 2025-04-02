@@ -1,16 +1,137 @@
 body {
     margin: 0;
     width: 100vw;
-    height: 56.25vw;
+    height: 100vh;
 }
 
 .recuadroprincipal{
     position: absolute;
     width: 100vw;
-    height: 56.25vw;
+    height: 100vh;
     background-color: white;
 }
+.i2{
+    position: absolute;
+    right: 88.54vw;
+    width: 45x;
+    height: 45px;
+    top: 0.6vh;
+}
+.letra1{
+    position: absolute;
+    text-decoration: none;
+    color: purple;
+    font-family: "letra_3";
+    font-size: 30px;
+    left: 12.5vw;
+    top: 1.4vh;
+}
+.i3{
+    position: absolute;
+    right:76.5vw;
+    top: 0.6vh;
+    width: 45px;
+    height: 45px;
+}
+.letra2{
+    position: absolute;
+    font-family: "letra_3";
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    left: 24vw;
+    top: 1.4vh;
+}
+.i4{
+    position: absolute;
+    right: 62.5vw;
+    top: 0.6vh;
+    width: 45px;
+    height: 45px;
+}
+.letra3{
+    position: absolute;
+    font-family: "letra_3";
+    text-decoration: none;
+    color: black;
+    font-family: "letra_3";
+    font-size: 30px;
+    left: 37.6vw;
+    top: 1.4vh;
+}
+.i5{
+    position: absolute;
+    right : 48.3vw;
+    top: 0.6vh;
+    width: 45px;
+    height: 45px;
+}
+.i7{
+    position: absolute;
+    right: 34.7vw;
+    top: 0.6vh;
+    width: 45px;
+    height: 45px;
 
+}
+.letra4{
+    position: absolute;
+    font-family: "letra_3";
+    text-decoration: none;
+    color: black;
+    font-family: "letra_3";
+    font-size: 30px;
+    left: 66vw;
+    top: 1.4vh;
+}
+.i6{
+    position: absolute;
+    right: 20.6vw;
+    top: 0.6vh;
+    width: 45px;
+    height: 45px;
+}
+.letra5{
+    position: absolute;
+    font-family: "letra_3";
+    text-decoration: none;
+    color: black;
+    font-family: "letra_3";
+    font-size: 30px;
+    left: 80vw;
+    top: 1.4vh;
+}
+.i8{
+    position: absolute;
+    top: 0.5vw;
+    width: 30px;
+    height: 30px;
+    left: 87vw;
+    border-radius: 100%;
+}
+.i9{
+    position: absolute;
+    top: 0.5vw;
+    width: 30px;
+    height: 30px;
+    left: 90vw;
+    border-radius: 100%;
+}
+.i1{
+    position: absolute;
+    top: 0.2vw;
+    width: 50px;
+    height: 50px;
+    left: 96.8vw;
+    border-radius: 100%;
+}
+.linea{
+    position: absolute;
+    background-color: black;
+    top: 5.5vh;
+    height: 0.15vh;
+    width: 100vw;
+}
 
 
 
@@ -24,104 +145,118 @@ body {
     border-radius: 2vw;
     left: 1.5vw;
     bottom: 1.2965vw;
+    top: 18vh;
     
 }
 .r2 {
     position: absolute;
     border-radius: 2vw;
     width: 13.125vw;
-    height: 3.22916vw;
+    height: 3.22916vh;
     background-color: white;
-    top: 21vw;
+    top: 21vh;
     left: 25vw;
 
 
 }
-.recuadro3 {
+#recuadro3 {
     position: absolute;
     width:13.125vw;
-    height:26.51041vw;
+    height:62.51041vh;
     background-color: #FF721B;
     border-radius: 2vw;
-    top: 28vw;
+    top: 28vh;
     left: 25vw;
     border: 0.3vw solid black;
+    text-align: center;
+    font-size: 1vw;
+    
 }
 
 .r4 {
     position: absolute;
     border-radius: 2vw;
     width: 13.125vw;
-    height: 3.22916vw;
+    height: 3.22916vh;
     background-color: white;
-    top: 21vw;
+    top: 21vh;
     left: 43vw;
 
 }
-.recuadro5 {
+#recuadro5 {
     position: absolute;
     width:13.125vw;
-    height:26.51041vw;
+    height:62.51041vh;
     background-color: #FF721B;
     border: 0.3vw solid black;
     border-radius: 2vw;
     left: 43vw;
-    top: 28vw;
+    top: 28vh;
+    text-align: center;
+    font-size: 1vw;
 }
 
 .r6 {
     position: absolute;
     border-radius: 2vw;
     width: 13.125vw;
-    height: 3.22916vw;
+    height: 3.22916vh;
     background-color: white;
     left: 61vw;
-    top: 21vw ;
+    top: 21vh ;
 }
 
-.recuadro7 {
+#recuadro7 {
     position: absolute;
     width:13.125vw;
-    height:26.51041vw;
+    height: 62.5104vh;;
     background-color: #FF721B;
     border: 0.3vw solid black;
     border-radius: 2vw;
-    top: 28vw;
+    top: 28vh;
     left: 61vw;
+    text-align: center;
+    font-size: 1vw ;
 }
-
+selector::placeholder{
+    background-color: white;
+    color: white;
+}
+textarea{
+    color: white;
+}
 .r8 {
     position: absolute;
     border-radius: 2vw;
-    width: 11.66666vw;
-    height: 3.22916vw;
+    width: 23.66666vh;
+    height: 3.22916vh;
     background-color: white;
     left: 79vw;
-    top: 21vw;
+    top: 21vh;
 }
 .circulo1{
     position: absolute;
-    height: 6.5625vw;
+    height: 6.5625vh;
     width: 6.5625vw;
-    top: 29vw;
+    top: 29vh;
     left: 79vw;
     border-radius: 100% 0 0 0;
     background-color: rgb(255, 255, 0);
 }
 .circulo2{
     position: absolute;
-    top: 29vw;
+    top: 29vh;
     left: 84.9999vw;
     width: 6.5625vw;
-    height: 6.5625vw;
+    height: 6.5625vh;
     border-radius:  0 100% 0 0;
     background-color: rgb(0, 255, 0);
 }
 .circulo3{
     position: absolute;
-    top: 35.625vw;
+    top: 35.625vh;
     left: 79vw;
-    height: 6.5625vw;
+    height: 6.5625vh;
     width: 6.5625vw;
     border-radius: 0 0 0 100%;
     background-color: rgb(255, 0, 0);
@@ -129,86 +264,71 @@ body {
 .circulo4{
     position: absolute;
     left: 84.9999vw;
-    top: 35.5625vw;
-    height: 6.5625vw;
+    top: 35.6625vh;
+    height: 6.5625vh;
     width: 6.5625vw;
     border-radius:  0 0 100% 0;
     background-color: rgb(53, 166, 240);
 }
-.r9 {
-    position: absolute;
-    border-radius: 2vw;
-    width: 11.66666vw;
-    height: 3.22916vw;
-    background-color: white;
-    left: 84vw;
-    top: 5vw;
-}
+
+
 button {
     color: black;
 }
 .porcentaje1{
     position: absolute;
-    top:1.2vw;
+    top:1.2vh;
     left: 2vw;
 
 }
 .porcentaje2{
     position: absolute;
-    top: 1.2vw;
+    top: 1.2vh;
     left: 1.2vw;
 
 }
 .porcentaje3{
     position: absolute;
-    top: 0.2vw;
+    top: 0.2vh;
     left: 2vw;
 }
 .porcentaje4 {
     position: absolute;
-    top: 0vw;
+    top: 0vh;
     left: 1.2vw;
 }
 .añadir{
     position: absolute;
     width: 42.29166vw;
-    height: 4.75vw;
+    height: 5.75vh;
     border-radius: 2vw;
-    top: 13vw;
+    top: 7vw;
     left: 30vw;
     background-color: white;
 }
 .imagen{
     position: absolute;
-    width: 3.3vw;
-    top: 13.8vw;
-    left: 43.8vw;
+    width: 3vw;
+    top: 12vh;
+    left: 44vw;
 }
 .añadir2 {
     position: absolute;
     font-size: 2.8vw;
-    top: -2vw;
+    top: -5.5vh;
     left: 18vw;
 }
-.salir {
-    position: absolute;
-    width: 3vw;
-    height: 3vw;
-    background-color: #FF721B;
-    border-radius: 89%;
-    left: 1.5vw;
-    top: 5vw;
-}
-.salir2 {
-    position: absolute;
-    font-size: 3vw;
-    top: -3vw;
-    left: 0.5vw;
-    
-}
+
 .flecha {
-    text-decoration: none;
-    color: white;
+
+        position: absolute;
+        width: 0vw;
+        height: 0vh;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-right: 25px solid black; /* Color de la flecha */
+        top: 1vh;
+        left: 2vw;
 }
 .palabra1 {
     position: absolute;
@@ -220,73 +340,63 @@ button {
     position: absolute;
     color: white;
     left: 1vw;
-    top: 5vw;
+    top: 5vh;
     font-size:2vw ;
 }
 .palabra3 {
     position: absolute;
     color: white;
     left: 1vw;
-    top: 10vw;
+    top: 10vh;
     font-size:2vw ;
 }
 .palabra4 {
     position: absolute;
     color: white;
     left: 1vw;
-    top: 15vw;
+    top: 15vh;
     font-size:2vw ;
 }
 .palabra5 {
     position: absolute;
     color: white;
     left: 1vw;
-    top: 20vw;
+    top: 20vh;
     font-size:2vw ;
 }
 .palabra6 {
     position: absolute;
     color: white;
     left: 1vw;
-    top: 25vw;
+    top: 25vh;
     font-size:2vw ;
 }
 .cumplimiento{
     position: absolute;
-    top: -0.9vw;
-    left: 1vw;
+    top: -2.5vh ;
+    left: 2vw;
     font-size: 1.5vw;
 }
 .usuarios{
     position: absolute;
-    top: -0.9vw;
+    top: -2.5vh ;
     left: 2.9vw;
     font-size: 1.5vw;
 }
 .descripcion{
     position: absolute;
-    top: -0.9vw;
+    top: -2.5vh ;
     left: 2.5vw;
     font-size: 1.5vw;
 }
 
 .indicador{
     position: absolute;
-    top: -0.9vw;
+    top: -2.5vh ;
     left: 3.1vw;
     font-size: 1.5vw;
 }
 
-.configuracion{
-    position: absolute;
-    top: -0.9vw;
-    left: 1.1vw;
-    font-size: 1.5vw;
-}
-.kario{
-    position: absolute;
-    width: 9vw;
-    height: 7vw;
-    left: 46vw;
-    top: 2.9vw;
+#f1{
+    color: w;
 }

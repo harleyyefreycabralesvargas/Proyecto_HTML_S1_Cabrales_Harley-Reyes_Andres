@@ -1,18 +1,18 @@
 body{
    margin: 0;
    width: 100vw;
-   height: 56.25vh;
+   height: 100vh;
 }
 .fondo_negro{
     position: absolute;
     width: 100vw;
-    height: 56.25vh;
+    height: 100vh;
     background-color: black;
 }
 .fondo_imagen{
     position: absolute;
     width: 100vw;
-    height: 56.25vh;
+    height: 100vh;
 }
 .logo_1{
     margin: 0;
@@ -36,9 +36,9 @@ body{
     position: absolute;
     background-color: white;
     width: 48.75vw;
-    height: 39.63541vh;
+    height: 70.63541vh;
     border-radius: 3.48958%;
-    top: 8.33333vh;
+    top: 17.33333vh;
     left: 25.625vw;
     opacity: 0%;
     animation: animacion2  linear forwards;
@@ -65,14 +65,14 @@ body{
 .texto_2{
     position: absolute;
     font-family: "letra_2";
-    top: 15.36458vh;
-    font-size: 1.04166vw;
-    left: 10.78125vw;
-    width: 28.05vw;
+    top: 20.60416vh;
+    font-size: 1.2vw;
+    left: 1.78125vw;
+    width: 45.05vw;
     height: 1.04166vh;
     text-align: center;
 }
-.datos_1{
+.dato0{
     position: absolute;
     font-family: "letra_2";
     font-size: 1.30208vw;
@@ -81,11 +81,47 @@ body{
     width: 3.95833vw;
     height: 1.30208vh;
 }
+.usuario{
+    position: absolute;
+    top: 24vh;
+    font-size: 1.8vw;
+    left: 8.5vw;
+    font-family: "letra_2";
+}
+.contraseña{
+    position: absolute;
+    top: 34vh;
+    font-size: 1.8vw;
+    left: 8.5vw;
+    font-family: "letra_2";
+}
+#datos1{
+    position: absolute;
+    font-family: "letra_2";
+    font-size: 1.30208vw;
+    top: 40.60416vh;
+    left:8vw;
+    width: 30.95833vw;
+    height: 2.90208vh;
+    
+}
+#datos2{
+    position: absolute;
+    font-family: "letra_2";
+    font-size: 1.30208vw;
+    top: 30.60416vh;
+    left: 8vw;
+    width: 30.95833vw;
+    height: 2.90208vh;
+    
+}
+
 input{
     width: 33.85416vw;
     height: 2.60416vh;
     border-radius: 1.04166vw;
     margin-bottom: 1.04166vw;
+
 }
 button{
     position: absolute;
@@ -98,12 +134,16 @@ button{
     background-color: #F97A2C;
     border-radius: 2.08333vw;
 }
+.link_panel{
+    text-decoration: none;
+    color: white;
+}
 .texto_3{
     position: absolute;
     font-family: "letra_2";
-    font-size: 0.7vw;
-    height: 0.78125vw;
-    width: 30.625vw;
+    font-size: 1.4rem;
+    height: 0vw;
+    width: 30vw;
     top: 34.84375vw;
     left:9.0625vw ;
 }

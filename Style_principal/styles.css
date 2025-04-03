@@ -41,8 +41,8 @@ body{
     top: 17.33333vh;
     left: 25.625vw;
     opacity: 0%;
-    animation: animacion2  linear forwards;
-    animation-delay: 0.1s;
+    animation: animacion2 4s linear forwards;
+    animation-delay: 3s;
 }
 .logo_2{
     position: absolute;

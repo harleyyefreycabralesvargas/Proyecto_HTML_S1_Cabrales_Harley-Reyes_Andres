@@ -13,11 +13,11 @@
     top: 46vh;
     left: 29vw;
 }
-.logo {
+.imagen {
     position: absolute;
     width: 26.14583vw;
-    height: 38.63541vh;
-    top: 8vh;
+    height: 18.63541vh;
+    top: 18vh;
     left: 35vw;
 }
 .texto1{
@@ -73,7 +73,6 @@
     top: 1vh;
     left: 2vw;
   }
-  
   .i2{
     position: absolute;
     right: 88.54vw;
@@ -84,6 +83,7 @@
 .letra1{
     position: absolute;
     text-decoration: none;
+    text-decoration: underline;
     color: black;
     font-family: "letra_3";
     font-size: 30px;

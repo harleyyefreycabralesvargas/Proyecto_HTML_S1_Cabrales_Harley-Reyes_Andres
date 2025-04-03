@@ -1,3 +1,7 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
 #cuadro1{
     position:absolute;
     width: 42vw;
@@ -16,7 +20,7 @@
     height: 32vh;
     background-color:white;
     border-radius: 1vw;
-    top: 20vh;
+    top: 10vh;
 }
 .soporte{
     position: absolute;
@@ -47,7 +51,8 @@
     height: 32vh;
     background-color:white;
     border-radius: 1vw;
-    top: 49vh;
+    top: 35vh;
+    
 }
 .seguridad{
     position: absolute;
@@ -79,7 +84,7 @@
     height: 32vh;
     background-color:white;
     border-radius: 1vw;
-    top: 79vh;
+    top: 63vh;
 }
 .cuadro6{
     position:absolute;
@@ -129,7 +134,7 @@
     border-radius: 1vw;
     font-size: 2vw;
     color: white;
-    top: 79vh;
+    top: 76vh;
     left: 65.5vw;
 }
 .descripcion{

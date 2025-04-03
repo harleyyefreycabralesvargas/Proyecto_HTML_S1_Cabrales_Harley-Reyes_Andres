@@ -20,7 +20,8 @@ body {
 .letra1{
     position: absolute;
     text-decoration: none;
-    color: purple;
+    text-decoration: underline;
+    color: black;
     font-family: "letra_3";
     font-size: 30px;
     left: 12.5vw;
@@ -147,6 +148,7 @@ body {
     bottom: 1.2965vw;
     top: 18vh;
     
+    
 }
 .r2 {
     position: absolute;
@@ -169,7 +171,8 @@ body {
     left: 25vw;
     border: 0.3vw solid black;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.3vw;
+    color: white
     
 }
 
@@ -193,7 +196,8 @@ body {
     left: 43vw;
     top: 28vh;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.3vw;
+    color: white
 }
 
 .r6 {
@@ -216,16 +220,26 @@ body {
     top: 28vh;
     left: 61vw;
     text-align: center;
-    font-size: 1vw ;
+    font-size: 1.3vw ;
+    color: white
 }
-selector::placeholder{
-    background-color: white;
-    color: white;
-}
-textarea{
-    color: white;
-}
+textarea::placeholder {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+input::placeholder {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+#recuadro8{
+    position: absolute;
+    width: 1vw;
+    text-align: center;
+    justify-content: center;
+    color: white
+  }
 .r8 {
+    
     position: absolute;
     border-radius: 2vw;
     width: 23.66666vh;
@@ -233,42 +247,6 @@ textarea{
     background-color: white;
     left: 79vw;
     top: 21vh;
-}
-.circulo1{
-    position: absolute;
-    height: 6.5625vh;
-    width: 6.5625vw;
-    top: 29vh;
-    left: 79vw;
-    border-radius: 100% 0 0 0;
-    background-color: rgb(255, 255, 0);
-}
-.circulo2{
-    position: absolute;
-    top: 29vh;
-    left: 84.9999vw;
-    width: 6.5625vw;
-    height: 6.5625vh;
-    border-radius:  0 100% 0 0;
-    background-color: rgb(0, 255, 0);
-}
-.circulo3{
-    position: absolute;
-    top: 35.625vh;
-    left: 79vw;
-    height: 6.5625vh;
-    width: 6.5625vw;
-    border-radius: 0 0 0 100%;
-    background-color: rgb(255, 0, 0);
-}
-.circulo4{
-    position: absolute;
-    left: 84.9999vw;
-    top: 35.6625vh;
-    height: 6.5625vh;
-    width: 6.5625vw;
-    border-radius:  0 0 100% 0;
-    background-color: rgb(53, 166, 240);
 }
 
 
@@ -309,13 +287,16 @@ button {
 .imagen{
     position: absolute;
     width: 3vw;
-    top: 12vh;
+    height: 5vh;
+    top: 12.8vh;
     left: 44vw;
 }
 .añadir2 {
     position: absolute;
+    text-decoration: none;
+    color: black;
     font-size: 2.8vw;
-    top: -5.5vh;
+    top: -5.3vh;
     left: 18vw;
 }
 
@@ -377,6 +358,19 @@ button {
     left: 2vw;
     font-size: 1.5vw;
 }
+#recuadro8 {
+    position: absolute;
+    width:13.125vw;
+    height:62.51041vh;
+    background-color: #FF721B;
+    border: 0.3vw solid black;
+    border-radius: 2vw;
+    left: 79vw;
+    top: 28vh;
+    text-align: center;
+    font-size: 1.1vw;
+}
+
 .usuarios{
     position: absolute;
     top: -2.5vh ;

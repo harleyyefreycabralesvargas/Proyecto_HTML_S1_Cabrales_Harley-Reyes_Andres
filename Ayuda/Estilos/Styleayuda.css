@@ -1,88 +1,146 @@
-body {
-    font-family:"letra_3";
-    background: white;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 56.25vh;
-    margin: 0;
-}
-.container {
-    position: absolute;
-    background: white;
-    width: 75.6666vw;
-    height: 80.6666vh;
-    padding: 30px;
-    border-radius: 2vw;
+#cuadro1{
+    position:absolute;
+    width: 42vw;
+    height: 20vh;
+    background-color:white;
+    top: 53vh;
+    left: 50vw;
+    border-radius:1vw;
     text-align: center;
-    top: 8vh;
-    left: 10.5vw;
-    font-size: 1.8vw;
-    border: 2px solid black;
+    border: 0.2vw solid black;
+    font-size: 2vw;
 }
-h2 {
-    position: absolute;
-    color: #333;
-}
-#input-box {
-    position: absolute;
-    width:50vw;
-    height: 28vh;
-    padding:8wv;
-    margin: 2pw;
-    border: 1px solid blue;
-    border-radius: 2vw;
-    top: 45vh;
-    left: 14.5vw;
-    font-size: 1.3vw;
-    text-align: center;
-}
-button {
-    position: absolute;
-    background: #FF6F2C ;
-    width: 15vw;
-    height: 4vw;
-    color: white;
-    border: none;
+.cuadro2{
+    position:absolute;
+    width: 28vw;
+    height: 32vh;
+    background-color:white;
     border-radius: 1vw;
-    font-size: 2.8vw;
-    top: 77vh;
-    left: 31.5vw;
+    top: 20vh;
 }
-
-@font-face {
-    font-family: letra_1;
-    src: url(../Letras/MYRIADPRO-BOLD.woff);
+.soporte{
+    position: absolute;
+    font-size: 1.8vw;
+    left: 5vw;
 }
-@font-face {
-    font-family: letra_2;
-    src: url(../Letras/MyriadPro-Light.woff);
+.palabra1{
+    position: absolute;
+    font-size: 1.8vw;
+    left: 3vw;
+    top: 5vh;
 }
-@font-face {
-    font-family: letra_3;
-    src: url(../Letras/MYRIADPRO-REGULAR.woff);
+.palabra2{
+    position: absolute;
+    font-size: 1.8vw;
+    left: 3vw;
+    top: 10vh;
 }
-
+.palabra3{
+    position: absolute;
+    font-size: 1.8vw;
+    left: 3vw;
+    top: 15vh;
+}
+.cuadro3{
+    position:absolute;
+    width: 28vw;
+    height: 32vh;
+    background-color:white;
+    border-radius: 1vw;
+    top: 49vh;
+}
+.seguridad{
+    position: absolute;
+    font-size: 1.8vw;
+    left: 3vw;
+    left: 5vw;
+}
 .texto1{
     position: absolute;
-    font-size: 3.9vw;
-    left: 25vw;
-    top: 0;
+    font-size: 1.8vw;
+    left: 3vw;
+    top: 5vh;
 }
 .texto2{
     position: absolute;
-    font-size: 2.7vw;
-    top: 16vh;
-    left: 14.5vw;
+    font-size: 1.8vw;
+    left: 3vw;
+    top: 10vh;
 }
-#cuadro2{
+.texto3{
+    position: absolute;
+    font-size: 1.8vw;
+    left: 3vw;
+    top: 15vh;
+}
+.cuadro4{
+    position:absolute;
+    width: 28vw;
+    height: 32vh;
+    background-color:white;
+    border-radius: 1vw;
+    top: 79vh;
+}
+.cuadro6{
+    position:absolute;
+    width: 28vw;
+    height: 32vh;
+    background-color:white;
+    border-radius: 1vw;
+    top: 49vh;
+}
+.telefono{
+    position: absolute;
+    font-size: 1.8vw;
+    left: 5vw;
+}
+.frase1{
+    position: absolute;
+    font-size: 1.8vw;
+    left: 3vw;
+    top: 5vh;
+}
+.frase2{
+    position: absolute;
+    font-size: 1.8vw;
+    left: 3vw;
+    top: 10vh;
+}
+.frase3{
+    position: absolute;
+    font-size: 1.8vw;
+    left: 3vw;
+    top: 15vh;
+}
+#cuadro5{
     position: absolute;
     width: 27vw;
     height: 6vh;
-    left: 26.5vw;
+    left: 50vw;
     top:34vh ;
-    font-size: 1.3vw;
+    font-size: 1.7vw;
     border: 1px solid black;
+}
+.enviar{
+    position:absolute;
+    width: 12vw;
+    height: 7vh;
+    background-color: #F97A2C;
+    border-radius: 1vw;
+    font-size: 2vw;
+    color: white;
+    top: 79vh;
+    left: 65.5vw;
+}
+.descripcion{
+    position:absolute;
+    width: 26vw;
+    height: 8vh;
+    background-color:rgb(186, 186, 186);
+    border-radius: 1vw;
+    font-size: 2vw;
+    top: 43vh;
+    left: 50vw;
 }
 .i2{
     position: absolute;
@@ -152,7 +210,7 @@ button {
     position: absolute;
     font-family: "letra_3";
     text-decoration: none;
-    color: purple;
+    color: black;
     font-family: "letra_3";
     font-size: 30px;
     left: 66vw;
@@ -207,12 +265,11 @@ button {
     width: 100vw;
 }
 .flecha {
-
     position: absolute;
     width: 0vw;
     height: 0vh;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
+    border-top: 26px solid transparent;
+    border-bottom: 26px solid transparent;
     border-right: 25px solid black; /* Color de la flecha */
     top: 1vh;
     left: 2vw;

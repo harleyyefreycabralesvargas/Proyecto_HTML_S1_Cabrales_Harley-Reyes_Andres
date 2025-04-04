@@ -1,89 +1,44 @@
-body {
-    font-family:"letra_3";
-    background: white;
-    justify-content: center;
-    align-items: center;
+body{
+    height: 100vh;
     width: 100vw;
-    height: 56.25vh;
-    margin: 0;
 }
-.container {
+
+
+
+.cuadroprincipal{
     position: absolute;
-    background: white;
-    width: 75.6666vw;
-    height: 80.6666vh;
-    padding: 30px;
-    border-radius: 2vw;
-    text-align: center;
-    top: 8vh;
-    left: 10.5vw;
-    font-size: 1.8vw;
-    border: 2px solid black;
-}
-h2 {
-    position: absolute;
-    color: #333;
-}
-#input-box {
-    position: absolute;
-    width:50vw;
-    height: 28vh;
-    padding:8wv;
-    margin: 2pw;
-    border: 1px solid blue;
-    border-radius: 2vw;
-    top: 45vh;
-    left: 14.5vw;
-    font-size: 1.3vw;
-    text-align: center;
-}
-button {
-    position: absolute;
-    background: #FF6F2C ;
-    width: 15vw;
-    height: 4vw;
-    color: white;
-    border: none;
+    width: 39vw;
+    height: 34vh;
+    background-color: white;
     border-radius: 1vw;
-    font-size: 2.8vw;
-    top: 77vh;
-    left: 31.5vw;
+    border: 0.2vw solid black;
+    top: 43vh;
+    left: 33.5vw;
 }
-
-@font-face {
-    font-family: letra_1;
-    src: url(../Letras/MYRIADPRO-BOLD.woff);
+.texto{
+    position: absolute;
+    font-size: 3vw;
+    text-align: start;
 }
-@font-face {
-    font-family: letra_2;
-    src: url(../Letras/MyriadPro-Light.woff);
-}
-@font-face {
-    font-family: letra_3;
-    src: url(../Letras/MYRIADPRO-REGULAR.woff);
-}
-
 .texto1{
     position: absolute;
-    font-size: 3.9vw;
-    left: 25vw;
-    top: 0;
+    font-size: 3vw;
+    top: 5.9vh;
+    left: 8.9vw;
 }
-.texto2{
+.siguiente{
     position: absolute;
-    font-size: 2.7vw;
-    top: 16vh;
-    left: 14.5vw;
+    background-color: #FF6F2C;
+    width: 15vw;
+    height: 9vh;
+    top: 21vh;
+    left: 11vw;
+    border-radius: 1vw;
+    border:0.2 solid black ;
+    font-size: 2vw;
+
 }
-#cuadro2{
-    position: absolute;
-    width: 27vw;
-    height: 6vh;
-    left: 26.5vw;
-    top:34vh ;
-    font-size: 1.3vw;
-    border: 1px solid black;
-}
+
 .i2{
     position: absolute;
     right: 88.54vw;
@@ -152,7 +107,6 @@ button {
     position: absolute;
     font-family: "letra_3";
     text-decoration: none;
-    text-decoration: underline;
     color: black;
     font-family: "letra_3";
     font-size: 30px;
@@ -207,7 +161,7 @@ button {
     height: 0.15vh;
     width: 100vw;
 }
-.flecha {
+.left {
 
     position: absolute;
     width: 0vw;
@@ -217,4 +171,9 @@ button {
     border-right: 25px solid black; /* Color de la flecha */
     top: 1vh;
     left: 2vw;
+}
+.imagen{
+    position: absolute;
+    left: 35.5vw;
+    top: 9vh;
 }

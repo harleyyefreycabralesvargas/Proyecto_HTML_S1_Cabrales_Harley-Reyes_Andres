@@ -1,4 +1,4 @@
-body {
+ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
@@ -123,7 +123,7 @@ body {
     top: 0.2vw;
     width: 50px;
     height: 50px;
-    left: 96.8vw;
+    left: 96.7vw;
     border-radius: 100%;
 }
 .linea{
@@ -288,7 +288,7 @@ button {
     position: absolute;
     width: 3vw;
     height: 5vh;
-    top: 12.8vh;
+    top: 12.5vh;
     left: 44vw;
 }
 .añadir2 {
@@ -307,7 +307,7 @@ button {
         height: 0vh;
         border-top: 20px solid transparent;
         border-bottom: 20px solid transparent;
-        border-right: 25px solid black; /* Color de la flecha */
+        border-right: 25px solid black;
         top: 1vh;
         left: 2vw;
 }

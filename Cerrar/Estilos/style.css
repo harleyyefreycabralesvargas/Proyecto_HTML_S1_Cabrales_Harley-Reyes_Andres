@@ -18,10 +18,11 @@ body{
 }
 .imagen2{
     position: absolute;
-    width: 15vw;
-    height: 15vh;
-    left: 43.5vw;
-    top: 45.5vh;
+    width: 19vw;
+    height: 31vh;
+    left: 41.5vw;
+    top: 40vh;
+    border-radius: 100%;
 }
 .texto2{
     position: absolute;
@@ -46,13 +47,4 @@ body{
     left: 1vw;
     color: white;
     text-decoration: none;
-}
-.circulo{
-    position: absolute;
-    width: 20vw;
-    height: 30vh;
-    background-color: rgb(203, 186, 186) ;
-    border-radius: 50%;
-    left: 41vw;
-    top: 40vh;
 }

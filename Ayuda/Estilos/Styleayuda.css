@@ -232,6 +232,7 @@ body{
     position: absolute;
     font-family: "letra_3";
     text-decoration: none;
+    text-decoration: underline;
     color: black;
     font-family: "letra_3";
     font-size: 30px;

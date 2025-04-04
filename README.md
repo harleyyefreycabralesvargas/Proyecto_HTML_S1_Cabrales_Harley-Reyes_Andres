@@ -8,7 +8,7 @@
 
   
 
-Este proyecto consiste en un esquema para la pagina web de KARIO Media con HTML, CSS. Su objetivo es tener un estilo para los apartados que se necesitan como añadir, eliminar, reportar, el apartado de ayuda y el cierre de sesion, estos solo trataran el tema visual y no su funcionalidad
+Este proyecto consiste en un esquema para la pagina web de KARIO Media con HTML, CSS. Su objetivo es tener un estilo para los apartados que se necesitan como añadir, eliminar, reportar, el apartado de ayuda y el cierre de sesion, estos solo trataran el tema visual y no su funcionalidad.
 
   
 
